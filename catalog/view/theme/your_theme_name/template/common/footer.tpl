@@ -29,8 +29,6 @@
     				<div class="form-group">	  
               <input id="send-question" type="submit" class="btn" value="Отправить">
     				</div>
-    				* - обязательны для заполнения
-    				<br><small>Нажимая кнопку отправить вы даете согласие на обработку ваших персональных данных (закон №152-ФЗ)</small>
     			</form>
     		</div>
   	</div>
