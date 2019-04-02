@@ -102,7 +102,7 @@ $(document).ready(function(){
 			success: function(json) {
 				clearPopupNotifications(popupWindow);
 	        	$('.ajax-loading').hide();
-				popUpNotify(popupWindow, 'attention', 'Данная функция находится на разработке и будет готово скоро');
+				//popUpNotify(popupWindow, 'attention', 'Данная функция находится на разработке и будет готово скоро');
 				if(json.success){
 					popUpNotify(popupWindow, 'success', json.success);
 					$(popupWindow + ' input:not([type=submit]), ' + popupWindow + ' textarea').val('');
